@@ -1,0 +1,24 @@
+<svg width="200" height="270" viewBox="0 0 200 270" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="200" height="270" fill="url(#paint0_radial_34_19)"/>
+<g clip-path="url(#clip0_34_19)">
+<mask id="mask0_34_19" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="70" width="200" height="200">
+<path d="M200 70H0V270H200V70Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_34_19)">
+<path d="M41.1 75.475H99.5157C99.0097 101.27 77.9411 122.025 52.025 122.025V122.5V122.975H52.5C78.4712 122.975 99.525 144.029 99.525 170C99.525 193.781 81.8719 213.44 58.9552 216.586L58.9511 217.526C81.9016 220.879 99.525 240.645 99.525 264.525H41.1C21.4249 264.525 5.475 248.575 5.475 228.9V111.1C5.475 91.4249 21.4249 75.475 41.1 75.475ZM147.975 122.975V122.5V122.025C122.058 122.025 100.991 101.27 100.484 75.475H158.9C178.575 75.475 194.525 91.4249 194.525 111.1V228.9C194.525 248.575 178.575 264.525 158.9 264.525H100.475C100.475 240.645 118.099 220.879 141.049 217.526L141.045 216.586C118.128 213.44 100.475 193.781 100.475 170C100.475 144.029 121.529 122.975 147.5 122.975H147.975Z" fill="url(#paint1_linear_34_19)" stroke="white" stroke-width="0.95"/>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial_34_19" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(106 270) rotate(-90.3183) scale(270.004 200.003)">
+<stop stop-color="#FFD9A0"/>
+<stop offset="1" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="paint1_linear_34_19" x1="31.125" y1="93.05" x2="146.55" y2="240.775" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFD9A0"/>
+<stop offset="1" stop-color="#FFF5F1"/>
+</linearGradient>
+<clipPath id="clip0_34_19">
+<rect width="200" height="200" fill="white" transform="translate(0 70)"/>
+</clipPath>
+</defs>
+</svg>

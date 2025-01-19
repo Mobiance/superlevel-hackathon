@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body{
+    background-color: #121212;
+    color: #f0f0f0;
+    scroll-behavior: smooth;
+}
+
+
+.bggrad{
+    background: linear-gradient(-106.193deg, #131313 0%, #19191A 68%, #131313 100%), linear-gradient(#000000, #000000);
+}
+
+.colorgrad{
+    background: linear-gradient(-170deg, #FBCB50 10%, #D87297 43%, #E36658 100%);
+}
+
+.ai-button-gradient {
+    /* background: linear-gradient(23.962deg, #76C38F 0%, #60CF8C 48%, #A7C12C 100%); */
+    background: linear-gradient(92.484deg, #7549F2 0%, #DF58D2 48%, #ED787C 100%);
+}
+
+.ai-button-shadow {
+    /* box-shadow: 0px 0px 24px 0px #60CF8C */
+    box-shadow: 0px 0px 24px 0px #7549F2
+    
+  
+}
+
+
+
+.colorshadow{
+    text-shadow: 0px 0px 8px#999;
+    /* [text-shadow:_0px_0px_24px_#d87297] */
+}
+
+.colorshadowbox{
+    box-shadow: 0px 0px 8px 0px#d87297;
+    /* [text-shadow:_0px_0px_24px_#d87297] */
+}
+
+.colorshadowbox2{
+    box-shadow: 0px 0px 24px 0px#d87297;
+    /* [text-shadow:_0px_0px_24px_#d87297] */
+}
+
+
+.colorshadowbox3{
+    box-shadow: 0px 0px 8px 0px#d87297;
+    /* [text-shadow:_0px_0px_24px_#d87297] */
+}
+
+.colorshadowbox3:hover{
+    box-shadow: 0px 0px 24px 0px#d87297;
+    /* [text-shadow:_0px_0px_24px_#d87297] */
+}
+
+
+.button {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    padding-block: 0.5rem;
+    padding-inline: 1.25rem;
+    background-color: #212121;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    gap: 10px;
+    font-weight: bold;
+    border: 3px solid #121212;
+    outline: none;
+    overflow: hidden;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+    border-color: #121212;
+  }
+  
+  .button:hover .icon {
+    transform: translate(4px);
+  }
+  
+  .button:hover::before {
+    animation: shine 1.5s ease-out infinite;
+  }
+  
+  .button::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-image: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0) 70%
+    );
+    top: 0;
+    left: -100px;
+    opacity: 0.6;
+  }
+  
+  @keyframes shine {
+    0% {
+      left: -100px;
+    }
+  
+    60% {
+      left: 100%;
+    }
+  
+    to {
+      left: 100%;
+    }
+  }
+  
