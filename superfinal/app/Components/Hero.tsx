@@ -34,7 +34,7 @@ const Hero = () => {
               <Image src="/assets/analytics.svg" alt="Insights" width={20} height={20} />
             </Link>
             <div className="capitalize flex gap-2 tracking-tight lg:text-base text-sm font-semibold hover:border-[#313131] border border-[#161616] transition ease-in-out duration-300 cursor-pointer lg:px-4 px-2.5 lg:py-2 py-1.5 ">
-              <a href='#videoo' className="">Watch Video</a>
+              <a href='https://youtu.be/nEBZlg-T00k' className="">Watch Video</a>
               <Image src="/assets/rightarrow.svg" alt="Insights" width={20} height={20} />
             </div>
           </div>
