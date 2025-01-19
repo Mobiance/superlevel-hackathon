@@ -23,10 +23,7 @@ The **Blog Dashboard** is a comprehensive platform designed to streamline conten
 ### **4. Blog Publishing**  
 - Outputs translations in a blog format with SEO-optimized language-specific URLs.  
 - Provides options to review, edit, and publish blog drafts.  
-
-### **5. Dynamic Routing & SEO Indexing**  
-- Language-specific URLs (e.g., `/blog-title-hindi`, `/blog-title-tamil`).  
-- Includes metadata, structured data, and language tags for improved SEO.  
+ 
 
 
 
