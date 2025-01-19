@@ -40,7 +40,7 @@ const Hero = () => {
           </div>
 
           <div id="video" className="bg-[#313131]/60 lg:w-[70dvw] w-[90dvw] lg:h-[80dvh] h-[40dvh] lg:mt-[52px] mt-[36px] rounded-3xl backdrop-blur-md flex justify-center items-center">
-             <iframe id='videoo' width="560" height="315" className='w-[95%] h-[90%] rounded-2xl ' src="https://www.youtube.com/embed/YtIvbDrF8zw?si=UQdN7LzSeLAxPSH1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>         
+            <iframe width="967" height="544" src="https://www.youtube.com/embed/nEBZlg-T00k" title="Final  Hackathon Video super Level" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>         
           </div>
 
         </div>
